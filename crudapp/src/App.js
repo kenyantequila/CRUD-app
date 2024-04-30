@@ -1,7 +1,7 @@
 
 import './App.css';
 import Listcomponents from './Components/Listcomponents';
-import Itemcomponents from './Components/Itemcomponents';
+
 
 
 function App() {
@@ -82,6 +82,8 @@ function App() {
   return (
     <div>
       <Listcomponents props={people}/>
+      
+      
     </div>
   );
 }

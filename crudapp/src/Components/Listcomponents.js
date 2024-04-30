@@ -1,6 +1,7 @@
 import React from 'react'
 import './Listcomponents.css'
 
+
 function Listcomponents({props}) {
   return props.map(({id,first_name,last_name,email,gender,fee_balance})=> (
     <div key={id} className='props'>
